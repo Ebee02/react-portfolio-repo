@@ -37,7 +37,7 @@ function Navbar() {
       </div>
 
       <ul
-        className={`md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500${addClassOrNot}`}
+        className={`md:flex md:items-center z-[1000] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500${addClassOrNot}`}
       >
         <li className="mx-4 my-6 md:my-0">
           <a href="#" className="text-lg hover:text-[#1C7C54] duration-500">
@@ -61,8 +61,8 @@ function Navbar() {
           </a>
         </li>
 
-        <button className="bg-[#1C7C54] text-white font-medium duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded shadow shadow-gray-400 flex items-center justify-between gap-x-2">
-          <h3 className="tracking-wide">Contact me</h3>
+        <button className="bg-[#1C7C54] text-white  duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded shadow shadow-gray-400 flex items-center justify-between gap-x-2">
+          <h3 className="tracking-wide font-medium">Contact me</h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="mt-4 flex flex-col md:flex-row-reverse md:items-center md:justify-center h-[dvh]">
+    <div className="mt-4 flex flex-col md:flex-row-reverse md:items-center md:justify-center h-[dvh] px-6 mb-4">
       <div className="image flex-1 h-screen w-screen flex items-center justify-center my-4 md:my-0">
         <div className="w-72 h-72 rounded-full shadow-gray-500 shadow-md border-none">
           <img
@@ -10,7 +10,7 @@ function Home() {
           />
         </div>
       </div>
-      <div className="content flex-1 px-6">
+      <div className="content flex-1">
         <h3 className=" text-[#1C7C54] text-lg tracking-wide md:text-xl font-medium  mb-4">
           Hey, I am John
         </h3>
@@ -28,7 +28,7 @@ function Home() {
         <div className="md:flex md:items-center gap-x-6">
           <a
             href="#"
-            className="font-normal text-lg text-white bg-[#1C7C54] p-2 rounded first-letter:border-none flex items-center justify-center gap-x-2 mb-4"
+            className="font-normal text-lg text-white bg-[#1C7C54] py-2 px-6 rounded  flex items-center justify-center gap-x-2 mb-4"
           >
             Contact Me
             <svg
@@ -46,7 +46,7 @@ function Home() {
           </a>
           <a
             href="#"
-            className="font-semibold text-lg text-black border border-[#1C7C54]  p-2 rounded flex items-center justify-center gap-x-2 mb-4 shadow-md"
+            className="font-semibold text-lg text-black border border-[#1C7C54]  py-2 px-6 rounded flex items-center justify-center gap-x-2 mb-4 shadow-md"
           >
             Download CV
             <svg
